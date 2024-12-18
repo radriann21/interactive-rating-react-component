@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Overpass';
+  src: local('Overpass'),
+    url('./assets/fonts/Overpass-VariableFont_wght.ttf') format('truetype');
+}
