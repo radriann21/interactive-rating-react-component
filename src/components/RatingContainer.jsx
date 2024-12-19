@@ -23,7 +23,7 @@ export const RatingContainer = () => {
   };
 
   return (
-    <article className="w-full md:w-[440px] p-8 md:p-4 rounded-xl bg-neutral-dark-blue space-y-10">
+    <article className="w-full md:w-[440px] p-8 rounded-xl bg-neutral-dark-blue space-y-10">
       {valid ? (
         <ThanksScreen rating={rating} />
       ) : (
